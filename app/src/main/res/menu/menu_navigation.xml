@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/projectListFragment"
+        android:icon="@drawable/lista"
+        android:title="@string/lista" />
+
+    <item android:id="@+id/accountFragment"
+        android:icon="@drawable/usuario"
+        android:title="@string/cuentaMenu" />
+
+</menu>
+

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph.xml"
+    app:startDestination="@id/projectListFragment">
+
+    <fragment
+        android:id="@+id/projectListFragment"
+        android:name="com.utad.myappud3.fragment.ProjectListFragment"
+        android:label="fragment_list"
+        tools:layout="@layout/fragment_project_list">
+        <action
+            android:id="@+id/action_projectListFragment_to_editProjectFragment"
+            app:destination="@id/editProjectFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/accountFragment"
+        android:name="com.utad.myappud3.fragment.AccountFragment"
+        android:label="fragment_account"
+        tools:layout="@layout/fragment_account" />
+    <fragment
+        android:id="@+id/editProjectFragment"
+        android:name="com.utad.myappud3.fragment.EditProjectFragment"
+        android:label="EditProjectFragment" >
+        <argument
+            android:name="projectId"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_editProjectFragment_to_projectListFragment"
+            app:destination="@id/projectListFragment" />
+    </fragment>
+</navigation>

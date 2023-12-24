@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ConstraintLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark"
+    android:contentDescription="@string/app_name"
+    android:padding="10dp"
+    tools:context=".NewProjectActivity">
+
+    <TextView
+        android:id="@+id/tv_titulo_project"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/newProject"
+        android:textSize="48sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
+
+    <EditText
+        android:id="@+id/tv_name_project"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bg_edit_text"
+        android:ems="10"
+        android:hint="@string/namePorject"
+        android:inputType="text"
+        android:minHeight="48dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.154"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_titulo_project"
+        app:layout_constraintVertical_bias="0.001" />
+
+    <EditText
+        android:id="@+id/tv_desc_project"
+        style="@style/Widget.Material3.AutoCompleteTextView.FilledBox"
+        android:layout_width="334dp"
+        android:layout_height="142dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:layout_marginEnd="32dp"
+        android:background="@drawable/bg_edit_text"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/projectDescription"
+        android:inputType="textMultiLine"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.396"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_name_project" />
+
+    <RadioGroup
+        android:id="@+id/rg_priority"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="32dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tv_desc_project"
+        app:layout_constraintVertical_bias="0.014">
+
+        <RadioButton
+            android:id="@+id/rb_priority_alta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/alta" />
+
+        <RadioButton
+            android:id="@+id/rb_priority_media"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/media" />
+
+        <RadioButton
+            android:id="@+id/rb_priority_baja"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/baja" />
+
+    </RadioGroup>
+
+    <RadioGroup
+        android:id="@+id/rg_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_priority"
+        app:layout_constraintVertical_bias="0.169">
+
+        <RadioButton
+            android:id="@+id/rb_status_pendiente"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/pendiente" />
+
+        <RadioButton
+            android:id="@+id/rb_status_proceso"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proceso" />
+
+        <RadioButton
+            android:id="@+id/rb_status_fin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/finalizado" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btt_guardar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:text="@string/guardar"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_status" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

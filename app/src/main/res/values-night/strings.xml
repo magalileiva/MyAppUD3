@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="login">Login</string>
+    <string name="register">Registro</string>
+    <string name="aceder">Acceder</string>
+    <string name="cuenta">Crear cuenta</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="newAccount">Crear nueva cuenta</string>
+    <string name="passwordRep">Repetir contraseña</string>
+    <string name="loginError">Credenciales incorrectas</string>
+    <string name="delete">Eliminar</string>
+    <string name="chipStatus">Estado del proyecto</string>
+    <string name="chipPrioridad">Prioridad del proyecto</string>
+    <string name="lista">Lista</string>
+    <string name="cuentaMenu">Cuenta</string>
+    <string name="newProject">Nuevo proyecto</string>
+    <string name="namePorject">Nombre del proyecto</string>
+    <string name="projectDescription">Descripcion del proyecto</string>
+    <string name="alta">Alta</string>
+    <string name="media">Media</string>
+    <string name="baja">Baja</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="proceso">En proceso</string>
+    <string name="finalizado">FInalizado</string>
+    <string name="guardar">Guardar</string>
+    <string name="salir">Salir</string>
+</resources>

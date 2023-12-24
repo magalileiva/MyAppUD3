@@ -1,0 +1,48 @@
+<resources>
+    <string name="app_name">My App UD3</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="imagen_noticia">Imagen de la noticia</string>
+    <string name="btn_continue">Continue</string>
+    <string name="tv_welcome">¡Bienvenido!\nVamos a ponernos al día.</string>
+    <string name="edt_nombre">¿Cómo te llamas?</string>
+    <string name="tv_categorias_te_gustan">¿Qué categoria de noticias te gusta más?</string>
+    <string name="chbox_todas">Múestrame todas</string>
+    <string name="chbox_deportes">Deportes</string>
+    <string name="chbox_tecnologia">Tecnología</string>
+    <string name="btn_news">Llevame al feed</string>
+    <string name="tv_terminos">%s, puede que encuentres información sensible. Necesitamos que nos confirmes que eres mayor de edad</string>
+    <string name="sch_edad">¿Eres mayor de edad?</string>
+    <string name="menuGeneral">General</string>
+    <string name="menuDeportes">Deportes</string>
+    <string name="menuTech">Tecnología</string>
+
+
+    <string name="login">Login</string>
+    <string name="register">Registro</string>
+    <string name="aceder">Acceder</string>
+    <string name="cuenta">Crear cuenta</string>
+    <string name="usuario">Nombre de usuario</string>
+    <string name="contraseña">Contraseña</string>
+    <string name="newAccount">Crear nueva cuenta</string>
+    <string name="passwordRep">Repetir contraseña</string>
+    <string name="passwordError">Las contraseñas no coinciden</string>
+    <string name="loginError">Credenciales incorrectas</string>
+    <string name="delete">Eliminar</string>
+    <string name="chipStatus">Estado del proyecto</string>
+    <string name="chipPrioridad">Prioridad del proyecto</string>
+    <string name="lista">Lista</string>
+    <string name="cuentaMenu">Cuenta</string>
+    <string name="newProject">Nuevo proyecto</string>
+    <string name="namePorject">Nombre del proyecto</string>
+    <string name="projectDescription">Descripcion del proyecto</string>
+    <string name="alta">Alta</string>
+    <string name="media">Media</string>
+    <string name="baja">Baja</string>
+    <string name="pendiente">Pendiente</string>
+    <string name="proceso">En proceso</string>
+    <string name="finalizado">FInalizado</string>
+    <string name="guardar">Guardar</string>
+    <string name="eliminar">Eliminar cuenta</string>
+    <string name="salir">Salir</string>
+</resources>
